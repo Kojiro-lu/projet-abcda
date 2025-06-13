@@ -1,0 +1,77 @@
+@use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.header {
+  background-color: $beige;
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__logo img {
+    height: 40px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      font-weight: 600;
+      color: $gris-foncé;
+
+      &:hover {
+        color: $terre-cuite;
+      }
+    }
+
+    @include responsive(mobile) {
+      position: absolute;
+      top: 70px;
+      right: 2rem;
+      background: $beige;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: none;
+
+      &.is-open {
+        display: flex;
+      }
+    }
+  }
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    span {
+      height: 2px;
+      width: 100%;
+      background: $gris-foncé;
+      border-radius: 2px;
+    }
+
+    @include responsive(mobile) {
+      display: flex;
+    }
+  }
+}

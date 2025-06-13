@@ -4,5 +4,5 @@
 @use "./base/reset";
 @use "./base/typography";
 @use "./base/base";
-@use "./components/header";
-@use "./pages/home";
+@use "../components/Header/Header.scss";
+@use "../pages/Home/Home.scss";
