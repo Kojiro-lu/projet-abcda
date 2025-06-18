@@ -18,7 +18,13 @@
   }
 
   &__logo img {
-    height: 40px;
+    height: 45px;
+    width: 130px;
+
+    @include responsive(mobile) {
+      height: 40px;
+      width: 115px;
+    }
   }
 
   &__nav {
