@@ -1,4 +1,11 @@
+import Hero from "../../components/Hero/Hero";
+
 function Home() {
-  return <h1>Bienvenue sur le site de l'architecte ABCDA</h1>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
+
 export default Home;
