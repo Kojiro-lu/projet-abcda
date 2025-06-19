@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
 import Home from "./pages/Home/Home.jsx";
-import ProjectDetail from "./pages/ProjectDetail/ProjectDetail.jsx";
+import ProjectPage from "./pages/ProjectPage/ProjectPage.jsx";
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/projets/:id" element={<ProjectPage />} />
+        <Route path="/404" element={<h2>Projet introuvable</h2>} />
       </Routes>
     </BrowserRouter>
   );

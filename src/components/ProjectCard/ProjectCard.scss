@@ -1,6 +1,12 @@
 @use "../../styles/abstracts/variables" as *;
 @use "../../styles/abstracts/mixins" as *;
 
+.project-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .project-card {
   background-color: #fff;
   border-radius: 8px;

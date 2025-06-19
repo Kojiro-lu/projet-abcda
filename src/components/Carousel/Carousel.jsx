@@ -3,9 +3,9 @@ import "./Carousel.scss";
 import arrowLeft from "../../assets/icons/arrow-left.png";
 import arrowRight from "../../assets/icons/arrow-right.png";
 
-const Carousel = ({ data, delay = 5000 }) => {
+const Carousel = ({ images = [], delay = 7000 }) => {
   const [current, setCurrent] = useState(0);
-  const length = data.length;
+  const length = images.length;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -32,11 +32,11 @@ const Carousel = ({ data, delay = 5000 }) => {
         className="carousel__content"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-        {data.map((image, index) => (
+        {images.map((image, index) => (
           <div key={index} className="carousel__slide">
             <img
-              src={image.src}
-              alt={image.alt}
+              src={typeof image === "string" ? image : image.src}
+              alt={typeof image === "string" ? `Image ${index + 1}` : image.alt}
               loading="lazy"
               className="carousel__image"
             />
@@ -69,8 +69,9 @@ const Carousel = ({ data, delay = 5000 }) => {
           className="carousel__arrow-icon"
         />
       </button>
+
       <div className="carousel__dots" role="tablist">
-        {data.map((_, idx) => (
+        {images.map((_, idx) => (
           <button
             key={idx}
             className={`carousel__dot ${idx === current ? "active" : ""}`}

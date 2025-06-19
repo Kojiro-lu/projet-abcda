@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero__container">
-        <Carousel data={carouselData} delay={5000} />
+        <Carousel images={carouselData} delay={7000} />
         <div className="hero__caption">
           <h1>
             ABCDA, votre architecte pour vos projets de rénovation et
