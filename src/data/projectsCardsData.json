@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Rénovation Maison Bourgeoise",
+    "ville": "Vannes",
+    "annee": 2023,
+    "image": "/images/projects/img1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Extension Villa Contemporaine",
+    "ville": "Lorient",
+    "annee": 2022,
+    "image": "/images/projects/img1.webp"
+  },
+  {
+    "id": 3,
+    "title": "Aménagement Espace Commercial",
+    "ville": "Nantes",
+    "annee": 2023,
+    "image": "/images/projects/img1.webp"
+  },
+  {
+    "id": 4,
+    "title": "Construction Écoquartier",
+    "ville": "Rennes",
+    "annee": 2021,
+    "image": "/images/projects/img1.webp"
+  },
+  {
+    "id": 5,
+    "title": "Réhabilitation Bâtiment Historique",
+    "ville": "Quimper",
+    "annee": 2020,
+    "image": "/images/projects/img1.webp"
+  },
+  {
+    "id": 6,
+    "title": "Création Jardin Public",
+    "ville": "Saint-Malo",
+    "annee": 2023,
+    "image": "/images/projects/img1.webp"
+  }
+]

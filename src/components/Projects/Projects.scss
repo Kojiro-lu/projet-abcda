@@ -1,0 +1,40 @@
+@use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.projects {
+  background-color: $beige;
+  padding: 1.5rem 2rem;
+  @include barre-gris-clair;
+
+  &__title {
+    font-family: $font-main;
+    color: $terre-cuite;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @include responsive(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include responsive(mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__infos {
+    text-align: center;
+    width: 30%;
+    p {
+      margin: 0.25rem 0;
+    }
+  }
+}

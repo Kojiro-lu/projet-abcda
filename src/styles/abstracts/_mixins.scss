@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+@mixin barre-gris-clair {
+  border-top: 2px solid $gris-clair;
+}
+
 @mixin responsive($breakpoint) {
   @if $breakpoint == mobile {
     @media (max-width: $bp-mobile) {
