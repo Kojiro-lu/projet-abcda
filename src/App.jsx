@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header.jsx";
 import Home from "./pages/Home/Home.jsx";
 import ProjectPage from "./pages/ProjectPage/ProjectPage.jsx";
+import AllProjectsPage from "./pages/AllProjectPage/AllProjectsPage.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets/:id" element={<ProjectPage />} />
+        <Route path="/projets" element={<AllProjectsPage />} />
         <Route path="/404" element={<h2>Projet introuvable</h2>} />
       </Routes>
     </BrowserRouter>

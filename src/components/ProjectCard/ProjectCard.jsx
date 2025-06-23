@@ -1,9 +1,9 @@
 import "./ProjectCard.scss";
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ project, children }) => {
+const ProjectCard = ({ project, children, to }) => {
   return (
-    <Link to={`/projets/${project.id}`} className="project-card-link">
+    <Link to={to} className="project-card-link">
       <article className="project-card">
         {project.imageCards && (
           <img

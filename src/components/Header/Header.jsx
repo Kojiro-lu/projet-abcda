@@ -19,7 +19,7 @@ function Header() {
           <Link to="/" onClick={() => setIsOpen(false)}>
             Accueil
           </Link>
-          <Link to="/projects" onClick={() => setIsOpen(false)}>
+          <Link to="/projets" onClick={() => setIsOpen(false)}>
             Projets
           </Link>
           <Link to="/#contact" onClick={() => setIsOpen(false)}>

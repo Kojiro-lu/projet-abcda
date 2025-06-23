@@ -11,7 +11,11 @@ const Projects = () => {
           .slice(-6)
           .reverse()
           .map((project) => (
-            <ProjectCard key={project.id} project={project}>
+            <ProjectCard
+              key={project.id}
+              project={project}
+              to={`/projets/${project.id}`}
+            >
               {(p) => (
                 <>
                   <h3>{p.title}</h3>

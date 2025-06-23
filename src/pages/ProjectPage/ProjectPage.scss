@@ -8,12 +8,10 @@
   font-family: $font-main;
   color: $gris-foncé;
 
-  // Carousel
   &__carousel {
     margin-bottom: 2rem;
   }
 
-  // Infos projet (titre, ville, année, surface, description)
   &__infos {
     margin-bottom: 2rem;
 
@@ -41,7 +39,6 @@
     }
   }
 
-  // Galerie plans
   &__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -62,7 +59,6 @@
     }
   }
 
-  // Boutons (retour + partage)
   &__buttons {
     display: flex;
     gap: 1rem;
