@@ -1,0 +1,30 @@
+@use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.footer {
+  background-color: $terre-cuite;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  &__nav {
+    margin-bottom: 1rem;
+
+    .footer__link {
+      color: white;
+      margin: 0 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: lighten($terre-cuite, 20%);
+      }
+    }
+  }
+
+  &__copyright {
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+}
