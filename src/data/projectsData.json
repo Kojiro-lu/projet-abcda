@@ -29,9 +29,13 @@
     "imageCards": "/images/projets/renovation-appartement/img1.webp",
     "carouselImages": [
       "/images/projets/renovation-appartement/img2.webp",
-      "/images/projets/renovation-appartement/img3.webp"
+      "/images/projets/renovation-appartement/img3.webp",
+      "/images/projets/renovation-appartement/img4.webp"
     ],
-    "plans": ["/images/projets/renovation-appartement/plans/img4.webp"]
+    "plans": [
+      "/images/projets/renovation-appartement/plans/img5.webp",
+      "/images/projets/renovation-appartement/plans/img5.webp"
+    ]
   },
   {
     "id": "p3",
@@ -63,9 +67,13 @@
     "imageCards": "/images/projets/centre-sportif/img1.webp",
     "carouselImages": [
       "/images/projets/centre-sportif/img2.webp",
-      "/images/projets/centre-sportif/img3.webp"
+      "/images/projets/centre-sportif/img3.webp",
+      "/images/projets/centre-sportif/img4.webp"
     ],
-    "plans": ["/images/projets/centre-sportif/plans/img4.webp"]
+    "plans": [
+      "/images/projets/centre-sportif/plans/img5.webp",
+      "/images/projets/centre-sportif/plans/img6.webp"
+    ]
   },
   {
     "id": "p5",
@@ -78,9 +86,13 @@
     "imageCards": "/images/projets/maison-ecologique/img1.webp",
     "carouselImages": [
       "/images/projets/maison-ecologique/img2.webp",
-      "/images/projets/maison-ecologique/img3.webp"
+      "/images/projets/maison-ecologique/img3.webp",
+      "/images/projets/maison-ecologique/img4.webp"
     ],
-    "plans": ["/images/projets/maison-ecologique/plans/img4.webp"]
+    "plans": [
+      "/images/projets/maison-ecologique/plans/img5.webp",
+      "/images/projets/maison-ecologique/plans/img6.webp"
+    ]
   },
   {
     "id": "p6",
@@ -93,9 +105,13 @@
     "imageCards": "/images/projets/extension-maison/img1.webp",
     "carouselImages": [
       "/images/projets/extension-maison/img2.webp",
-      "/images/projets/extension-maison/img3.webp"
+      "/images/projets/extension-maison/img3.webp",
+      "/images/projets/extension-maison/img4.webp"
     ],
-    "plans": ["/images/projets/extension-maison/plans/img4.webp"]
+    "plans": [
+      "/images/projets/extension-maison/plans/img5.webp",
+      "/images/projets/extension-maison/plans/img6.webp"
+    ]
   },
   {
     "id": "p7",
@@ -108,9 +124,13 @@
     "imageCards": "/images/projets/renovation-maison-ville/img1.webp",
     "carouselImages": [
       "/images/projets/renovation-maison-ville/img2.webp",
-      "/images/projets/renovation-maison-ville/img3.webp"
+      "/images/projets/renovation-maison-ville/img3.webp",
+      "/images/projets/renovation-maison-ville/img4.webp"
     ],
-    "plans": ["/images/projets/renovation-maison-ville/plans/img4.webp"]
+    "plans": [
+      "/images/projets/renovation-maison-ville/plans/img5.webp",
+      "/images/projets/renovation-maison-ville/plans/img6.webp"
+    ]
   },
   {
     "id": "p8",
@@ -142,8 +162,12 @@
     "imageCards": "/images/projets/batiment-industriel/img1.webp",
     "carouselImages": [
       "/images/projets/batiment-industriel/img2.webp",
-      "/images/projets/batiment-industriel/img3.webp"
+      "/images/projets/batiment-industriel/img3.webp",
+      "/images/projets/batiment-industriel/img4.webp"
     ],
-    "plans": ["/images/projets/batiment-industriel/plans/img4.webp"]
+    "plans": [
+      "/images/projets/villa-luxe/plans/img5.webp",
+      "/images/projets/villa-luxe/plans/img6.webp"
+    ]
   }
 ]

@@ -19,7 +19,7 @@ const Contact = () => {
 
       if (response.ok) {
         setIsSubmitted(true);
-        form.reset(); // Réinitialise les champs du formulaire
+        form.reset();
       } else {
         alert("Une erreur est survenue. Merci de réessayer.");
       }

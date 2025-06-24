@@ -20,7 +20,7 @@
 
   &__caption {
     position: absolute;
-    bottom: 5rem;
+    bottom: 27rem;
     left: 50%;
     transform: translateX(-50%);
     color: white;
@@ -34,14 +34,14 @@
 
     @include responsive(tablet) {
       font-size: 0.8rem;
-      bottom: 3rem;
+      bottom: 18rem;
       padding: 0.4rem 0.8rem;
       width: 95%;
     }
 
     @include responsive(mobile) {
       font-size: 0.5rem;
-      bottom: 2rem;
+      bottom: 17rem;
       padding: 0.3rem 0.6rem;
       width: 95%;
     }
