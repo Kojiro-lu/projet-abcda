@@ -2,6 +2,7 @@ import { useParams, Navigate, useNavigate } from "react-router-dom";
 import projectsData from "../../data/projectsData.json";
 import Carousel from "../../components/Carousel/Carousel";
 import "./ProjectPage.scss";
+import Contact from "../../components/Contact/Contact";
 
 const ProjectPage = () => {
   const { id } = useParams();
@@ -73,6 +74,7 @@ const ProjectPage = () => {
           Partager
         </button>
       </section>
+      <Contact />
     </main>
   );
 };

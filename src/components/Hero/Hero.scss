@@ -10,11 +10,11 @@
     height: 80vh;
 
     @include responsive(tablet) {
-      height: 60vh;
+      height: 50vh;
     }
 
     @include responsive(mobile) {
-      height: 50vh;
+      height: 40vh;
     }
   }
 
@@ -34,14 +34,14 @@
 
     @include responsive(tablet) {
       font-size: 0.8rem;
-      bottom: 18rem;
+      bottom: 25rem;
       padding: 0.4rem 0.8rem;
       width: 95%;
     }
 
     @include responsive(mobile) {
       font-size: 0.5rem;
-      bottom: 17rem;
+      bottom: 13rem;
       padding: 0.3rem 0.6rem;
       width: 95%;
     }

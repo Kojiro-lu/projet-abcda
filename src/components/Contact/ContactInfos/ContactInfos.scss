@@ -1,0 +1,36 @@
+@use "../../../styles/abstracts/variables" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.contact-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  color: $gris-foncé;
+  font-size: 1rem;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  &__socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: $terre-cuite;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @include responsive(mobile) {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

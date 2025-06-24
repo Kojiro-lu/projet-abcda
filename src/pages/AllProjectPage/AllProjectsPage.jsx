@@ -2,6 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import projectsData from "../../data/projectsData.json";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./AllProjectsPage.scss";
+import Contact from "../../components/Contact/Contact";
 
 const AllProjectsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -24,39 +25,42 @@ const AllProjectsPage = () => {
   };
 
   return (
-    <section className="all-projects">
-      <h1 className="all-projects__title">Tous les projets</h1>
+    <>
+      <section className="all-projects">
+        <h1 className="all-projects__title">Tous les projets</h1>
 
-      <div className="all-projects__filters">
-        <button
-          className={activeType === "Tous" ? "active" : ""}
-          onClick={() => handleFilterClick("Tous")}
-        >
-          Tous
-        </button>
-        {projectTypes.map((type) => (
+        <div className="all-projects__filters">
           <button
-            key={type}
-            className={activeType === type ? "active" : ""}
-            onClick={() => handleFilterClick(type)}
+            className={activeType === "Tous" ? "active" : ""}
+            onClick={() => handleFilterClick("Tous")}
           >
-            {type}
+            Tous
           </button>
-        ))}
-      </div>
+          {projectTypes.map((type) => (
+            <button
+              key={type}
+              className={activeType === type ? "active" : ""}
+              onClick={() => handleFilterClick(type)}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
 
-      <div className="all-projects__grid">
-        {filteredProjects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            project={project}
-            to={`/projets/${project.id}`}
-          >
-            {(project) => <h2>{project.title}</h2>}
-          </ProjectCard>
-        ))}
-      </div>
-    </section>
+        <div className="all-projects__grid">
+          {filteredProjects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+              to={`/projets/${project.id}`}
+            >
+              {(project) => <h2>{project.title}</h2>}
+            </ProjectCard>
+          ))}
+        </div>
+      </section>
+      <Contact />
+    </>
   );
 };
 

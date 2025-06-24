@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 import Header from "./components/Header/Header.jsx";
 import Home from "./pages/Home/Home.jsx";
 import ProjectPage from "./pages/ProjectPage/ProjectPage.jsx";
 import AllProjectsPage from "./pages/AllProjectPage/AllProjectsPage.jsx";
+import NotFound from "./pages/NotFound/NotFound.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import Contact from "./components/Contact/Contact.jsx";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 
 function App() {
   return (
@@ -16,9 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projets/:id" element={<ProjectPage />} />
         <Route path="/projets" element={<AllProjectsPage />} />
-        <Route path="/404" element={<h2>Projet introuvable</h2>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      <Contact />
       <Footer />
     </BrowserRouter>
   );
