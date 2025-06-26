@@ -6,7 +6,7 @@
     "ville": "Lyon",
     "annee": "2023",
     "surface": 150,
-    "description": "Projet de maison contemporaine avec une grande baie vitrée donnant sur le jardin.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/maison-contemporaine/img1.webp",
     "carouselImages": [
       "/images/projets/maison-contemporaine/img2.webp",
@@ -25,7 +25,7 @@
     "ville": "Paris",
     "annee": "2022",
     "surface": 85,
-    "description": "Rénovation complète d’un appartement ancien en plein cœur de Paris.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/renovation-appartement/img1.webp",
     "carouselImages": [
       "/images/projets/renovation-appartement/img2.webp",
@@ -44,7 +44,7 @@
     "ville": "Marseille",
     "annee": "2021",
     "surface": 1200,
-    "description": "Construction d’une école primaire moderne et fonctionnelle.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/construction-ecole/img1.webp",
     "carouselImages": [
       "/images/projets/construction-ecole/img2.webp",
@@ -63,7 +63,7 @@
     "ville": "Toulouse",
     "annee": "2023",
     "surface": 900,
-    "description": "Construction d’un centre sportif moderne avec plusieurs salles polyvalentes.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/centre-sportif/img1.webp",
     "carouselImages": [
       "/images/projets/centre-sportif/img2.webp",
@@ -82,7 +82,7 @@
     "ville": "Nantes",
     "annee": "2022",
     "surface": 140,
-    "description": "Maison conçue avec des matériaux écologiques et une architecture bioclimatique.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/maison-ecologique/img1.webp",
     "carouselImages": [
       "/images/projets/maison-ecologique/img2.webp",
@@ -101,7 +101,7 @@
     "ville": "Bordeaux",
     "annee": "2021",
     "surface": 90,
-    "description": "Extension d’une maison familiale avec création d’une nouvelle pièce à vivre.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/extension-maison/img1.webp",
     "carouselImages": [
       "/images/projets/extension-maison/img2.webp",
@@ -120,7 +120,7 @@
     "ville": "Lille",
     "annee": "2023",
     "surface": 120,
-    "description": "Rénovation complète d’une maison de ville ancienne en conservant son charme d’origine.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/renovation-maison-ville/img1.webp",
     "carouselImages": [
       "/images/projets/renovation-maison-ville/img2.webp",
@@ -139,7 +139,7 @@
     "ville": "Cannes",
     "annee": "2020",
     "surface": 320,
-    "description": "Villa de luxe avec piscine et vue panoramique sur la mer.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/villa-luxe/img1.webp",
     "carouselImages": [
       "/images/projets/villa-luxe/img2.webp",
@@ -148,7 +148,9 @@
     ],
     "plans": [
       "/images/projets/villa-luxe/plans/img5.webp",
-      "/images/projets/villa-luxe/plans/img6.webp"
+      "/images/projets/villa-luxe/plans/img6.webp",
+      "/images/projets/villa-luxe/plans/img7.webp",
+      "/images/projets/villa-luxe/plans/img8.webp"
     ]
   },
   {
@@ -158,7 +160,7 @@
     "ville": "Strasbourg",
     "annee": "2021",
     "surface": 1500,
-    "description": "Construction d’un bâtiment industriel pour stockage et logistique.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu augue dictum, pellentesque ex a, semper est. Suspendisse fermentum nunc risus, in dignissim dolor consequat at. Nullam eu nisl sed ante feugiat imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ut tincidunt ipsum, eget laoreet nisi. Ut at ipsum odio. Aenean ex justo, blandit sed fermentum in, tempor quis ipsum. Integer et urna sed mauris semper dictum varius ac ligula. Maecenas pulvinar congue scelerisque.",
     "imageCards": "/images/projets/batiment-industriel/img1.webp",
     "carouselImages": [
       "/images/projets/batiment-industriel/img2.webp",

@@ -1,32 +1,43 @@
 import { useParams, Navigate, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import projectsData from "../../data/projectsData.json";
 import Carousel from "../../components/Carousel/Carousel";
-import "./ProjectPage.scss";
 import Contact from "../../components/Contact/Contact";
+import PhotoGallery from "../../components/PhotoGallery/PhotoGallery";
+import "./ProjectPage.scss";
 
 const ProjectPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [galleryOpen, setGalleryOpen] = useState(false);
+  const [galleryIndex, setGalleryIndex] = useState(0);
 
   const project = projectsData.find((p) => p.id === id);
+  if (!project) return <Navigate to="/404" replace />;
 
-  const handleBack = () => {
-    navigate(-1);
+  const openGallery = (index) => {
+    setGalleryIndex(index);
+    setGalleryOpen(true);
   };
 
-  const handleShare = () => {
-    alert("Fonction partage à venir...");
+  const closeGallery = () => setGalleryOpen(false);
+
+  const nextImage = () => {
+    setGalleryIndex((prevIndex) => (prevIndex + 1) % project.plans.length);
   };
 
-  if (!project) {
-    return <Navigate to="/404" replace />;
-  }
+  const prevImage = () => {
+    setGalleryIndex(
+      (prevIndex) =>
+        (prevIndex - 1 + project.plans.length) % project.plans.length
+    );
+  };
+
+  const handleBack = () => navigate(-1);
+  const handleShare = () => alert("Fonction partage à venir...");
+
   return (
     <main className="project-page">
-      <div className="project-page__carousel">
-        <Carousel images={project.carouselImages} />
-      </div>
-
       <section className="project-page__infos">
         <h1>{project.title}</h1>
         <ul>
@@ -45,7 +56,12 @@ const ProjectPage = () => {
         </ul>
       </section>
 
+      <div className="project-page__carousel">
+        <Carousel images={project.carouselImages} variant="small" />
+      </div>
+
       <section className="project-page__description">
+        <h2>Description du Projet</h2>
         <p>{project.description}</p>
       </section>
 
@@ -58,6 +74,7 @@ const ProjectPage = () => {
               src={src}
               alt={`Plan ${index + 1}`}
               className="project-page__plan"
+              onClick={() => openGallery(index)}
             />
           ))}
         </div>
@@ -74,6 +91,17 @@ const ProjectPage = () => {
           Partager
         </button>
       </section>
+
+      {galleryOpen && (
+        <PhotoGallery
+          images={project.plans}
+          currentIndex={galleryIndex}
+          onClose={closeGallery}
+          onNext={nextImage}
+          onPrev={prevImage}
+        />
+      )}
+
       <Contact />
     </main>
   );

@@ -3,7 +3,7 @@ import "./Carousel.scss";
 import arrowLeft from "../../assets/icons/arrow-left.png";
 import arrowRight from "../../assets/icons/arrow-right.png";
 
-const Carousel = ({ images = [], delay = 7000 }) => {
+const Carousel = ({ images = [], delay = 7000, variant = "default" }) => {
   const [current, setCurrent] = useState(0);
   const length = images.length;
 
@@ -24,7 +24,7 @@ const Carousel = ({ images = [], delay = 7000 }) => {
 
   return (
     <div
-      className="carousel"
+      className={`carousel ${variant}`}
       role="region"
       aria-label="Carrousel d’illustrations du site ABCDA"
     >

@@ -3,9 +3,14 @@
 
 .carousel {
   position: relative;
-  width: 100%;
   height: 100%;
   overflow: hidden;
+  width: 100%;
+
+  &.small {
+    width: 80%;
+    height: 400px;
+  }
 
   &__content {
     display: flex;
