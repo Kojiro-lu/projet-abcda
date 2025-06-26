@@ -2,7 +2,12 @@
 @use "../../../styles/abstracts/mixins" as *;
 
 .contact-map {
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+  margin-bottom: 0;
 
   iframe {
     width: 100%;
