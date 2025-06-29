@@ -3,6 +3,7 @@ import projectsData from "../../data/projectsData.json";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./AllProjectsPage.scss";
 import Contact from "../../components/Contact/Contact";
+import { Helmet } from "react-helmet-async";
 
 const AllProjectsPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -27,6 +28,38 @@ const AllProjectsPage = () => {
   return (
     <>
       <section className="all-projects">
+        <Helmet>
+          <title>
+            Tous les projets – Cyril Bettremieux - ABCDA, architecte en Bretagne
+          </title>
+          <meta
+            name="description"
+            content="Découvrez tous les projets réalisés par ABCDA, cabinet d’architecture dirigé par Cyril Bettremieux : construction, rénovation, aménagement en Bretagne."
+          />
+          <meta
+            property="og:title"
+            content="Tous les projets – ABCDA Architecte"
+          />
+          <meta
+            property="og:description"
+            content="Explorez les projets d’architecture menés par Cyril Bettremieux (ABCDA) à travers la Bretagne. Logements, aménagements, rénovations…"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.abcda.fr/projets" />
+          <meta property="og:image" content="/images/og-cover.webp" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            name="twitter:title"
+            content="Tous les projets – ABCDA Architecte"
+          />
+          <meta
+            name="twitter:description"
+            content="Découvrez les projets réalisés par le cabinet ABCDA : architecture sur mesure pour vos besoins en Bretagne."
+          />
+          <meta name="twitter:image" content="/images/og-cover.webp" />
+        </Helmet>
+
         <h1 className="all-projects__title">Tous les projets</h1>
 
         <div className="all-projects__filters">

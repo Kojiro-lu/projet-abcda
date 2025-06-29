@@ -9,8 +9,9 @@ const Hero = () => {
         <Carousel images={carouselData} delay={7000} />
         <div className="hero__caption">
           <h1>
-            ABCDA, votre architecte pour vos projets de rénovation et
-            construction.
+            Cyril Bettremieux, architecte DPLG à la tête d'ABCDA, vous
+            accompagne dans la rénovation, l’extension ou la construction de
+            votre maison en Bretagne.
           </h1>
         </div>
       </div>

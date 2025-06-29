@@ -5,6 +5,7 @@ import Carousel from "../../components/Carousel/Carousel";
 import Contact from "../../components/Contact/Contact";
 import PhotoGallery from "../../components/PhotoGallery/PhotoGallery";
 import "./ProjectPage.scss";
+import { Helmet } from "react-helmet-async";
 
 const ProjectPage = () => {
   const { id } = useParams();
@@ -38,6 +39,52 @@ const ProjectPage = () => {
 
   return (
     <main className="project-page">
+      <Helmet>
+        <title>{`${project.title} – Cyril Bettremieux - ABCDA, architecte en Bretagne`}</title>
+        <meta
+          name="description"
+          content={`Projet de ${project.type.toLowerCase()} situé à ${
+            project.ville
+          }, réalisé par Cyril Bettremieux, gérant d'ABCDA, en ${
+            project.annee
+          }. Surface : ${project.surface} m².`}
+        />
+
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content={`${project.title} – Cyril Bettremieux, ABCDA Architecte`}
+        />
+        <meta
+          property="og:description"
+          content={`Projet de ${project.type.toLowerCase()} à ${
+            project.ville
+          }, ${
+            project.surface
+          } m², par Cyril Bettremieux (ABCDA - Architecte).`}
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content={`https://www.abcda.fr/projets/${project.id}`}
+        />
+        <meta property="og:image" content={project.carouselImages?.[0]} />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`${project.title} – Cyril Bettremieux, ABCDA Architecte`}
+        />
+        <meta
+          name="twitter:description"
+          content={`Découvrez ce projet de ${project.type.toLowerCase()} à ${
+            project.ville
+          } par Cyril Bettremieux - ABCDA, cabinet d’architecture.`}
+        />
+        <meta name="twitter:image" content={project.carouselImages?.[0]} />
+      </Helmet>
+
       <section className="project-page__infos">
         <h1>{project.title}</h1>
         <ul>
