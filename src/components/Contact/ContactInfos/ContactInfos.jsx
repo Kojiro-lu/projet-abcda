@@ -1,3 +1,4 @@
+import SocialIcons from "../../SocialIcons/SocialIcons";
 import "./ContactInfos.scss";
 
 const ContactInfos = () => {
@@ -14,12 +15,7 @@ const ContactInfos = () => {
       </p>
 
       <div className="contact-infos__socials">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-          LinkedIn
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
-          Instagram
-        </a>
+        <SocialIcons />
       </div>
     </div>
   );

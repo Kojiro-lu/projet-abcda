@@ -1,0 +1,19 @@
+@use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+
+  a {
+    color: $terre-cuite;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      color: lighten($terre-cuite, 15%);
+      transform: scale(1.2);
+    }
+  }
+}
