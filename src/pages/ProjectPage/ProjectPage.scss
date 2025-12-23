@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "../../styles/abstracts/variables" as *;
 @use "../../styles/abstracts/mixins" as *;
 
@@ -127,7 +129,7 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
     &:hover {
-      background-color: darken($terre-cuite, 10%);
+      background-color: color.adjust($terre-cuite, $lightness: -10%);
       transform: translateY(-2px);
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
@@ -138,11 +140,11 @@
     }
 
     &--share {
-      background-color: lighten($terre-cuite, 15%);
+      background-color: color.adjust($terre-cuite, $lightness: 15%);
       color: $gris-foncé;
 
       &:hover {
-        background-color: lighten($terre-cuite, 5%);
+        background-color: color.adjust($terre-cuite, $lightness: 5%);
       }
     }
 

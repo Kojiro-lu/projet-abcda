@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "../../styles/abstracts/variables" as *;
 @use "../../styles/abstracts/mixins" as *;
 
@@ -12,7 +14,7 @@
     transition: transform 0.3s ease, color 0.3s ease;
 
     &:hover {
-      color: lighten($terre-cuite, 15%);
+      color: color.adjust($terre-cuite, $lightness: 15%);
       transform: scale(1.2);
     }
   }

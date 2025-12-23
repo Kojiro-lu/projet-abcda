@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "../../../styles/abstracts/variables" as *;
 @use "../../../styles/abstracts/mixins" as *;
 
@@ -49,13 +51,13 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: darken($terre-cuite, 10%);
+      background-color: color.adjust($terre-cuite, $lightness: -10%);
     }
   }
 
   &__success {
     margin-top: 1rem;
-    background-color: lighten($beige, 10%);
+    background-color: color.adjust($beige, $lightness: 5%);
     border-left: 4px solid $terre-cuite;
     padding: 1rem;
     border-radius: 4px;

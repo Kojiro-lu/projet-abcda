@@ -1,4 +1,7 @@
+@use "sass:color";
+
 @use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
 
 .notfound {
   text-align: center;
@@ -27,7 +30,7 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: darken($terre-cuite, 10%);
+      background-color: color.adjust($terre-cuite, $lightness: -10%);
     }
   }
 }
