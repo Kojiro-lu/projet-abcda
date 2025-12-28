@@ -7,6 +7,14 @@
   background-color: $beige;
   padding: 2rem 2rem;
 
+  @include responsive(tablet) {
+    padding: 1.5rem 2rem;
+  }
+
+  @include responsive(mobile) {
+    padding: 1rem 1rem;
+  }
+
   h2 {
     font-family: $font-main;
     color: $terre-cuite;

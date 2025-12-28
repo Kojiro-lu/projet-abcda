@@ -48,9 +48,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
+    align-items: stretch;
 
     @include responsive(mobile) {
       grid-template-columns: 1fr;
+      justify-items: center;
     }
   }
 }

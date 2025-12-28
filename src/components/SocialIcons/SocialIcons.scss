@@ -8,6 +8,10 @@
   gap: 1.5rem;
   margin-top: 1rem;
 
+  @include responsive(mobile) {
+    text-align: center;
+  }
+
   a {
     color: $terre-cuite;
     font-size: 2rem;

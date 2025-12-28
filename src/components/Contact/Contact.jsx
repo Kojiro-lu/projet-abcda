@@ -23,7 +23,7 @@ const Contact = () => {
         <ContactInfos />
       </div>
 
-      <ContactMap />
+      <ContactMap className="mobile-hidden" />
     </section>
   );
 };

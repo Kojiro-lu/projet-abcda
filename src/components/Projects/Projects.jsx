@@ -16,12 +16,12 @@ const Projects = () => {
               project={project}
               to={`/projets/${project.id}`}
             >
-              {(p) => (
+              {(project) => (
                 <>
-                  <h3>{p.title}</h3>
+                  <h2>{project.title}</h2>
                   <div className="projects__infos">
-                    <p>{p.ville}</p>
-                    <p>{p.annee}</p>
+                    <p>{project.ville}</p>
+                    <p>{project.annee}</p>
                   </div>
                 </>
               )}

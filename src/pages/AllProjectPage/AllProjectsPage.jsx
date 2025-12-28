@@ -87,7 +87,15 @@ const AllProjectsPage = () => {
               project={project}
               to={`/projets/${project.id}`}
             >
-              {(project) => <h2>{project.title}</h2>}
+              {(project) => (
+                <>
+                  <h2>{project.title}</h2>
+                  <div className="projects__infos">
+                    <p>{project.ville}</p>
+                    <p>{project.annee}</p>
+                  </div>
+                </>
+              )}
             </ProjectCard>
           ))}
         </div>

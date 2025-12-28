@@ -18,6 +18,13 @@
     display: flex;
     gap: 1rem;
 
+    @include responsive(mobile) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0;
+    }
+
     a {
       color: $terre-cuite;
       font-weight: 600;
@@ -31,6 +38,5 @@
 
   @include responsive(mobile) {
     width: 100%;
-    margin-top: 0.5rem;
   }
 }
