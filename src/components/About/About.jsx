@@ -4,11 +4,16 @@ import "./About.scss";
 const About = () => {
   return (
     <section id="about" className="about">
+      <h2>{aboutData.title}</h2>
       <div className="about__container">
         <div className="about__text">
-          <h2>{aboutData.title}</h2>
           {aboutData.description.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
+            <p
+              key={index}
+              className={index === 1 || index === 2 ? "mobile-hidden" : ""}
+            >
+              {paragraph}
+            </p>
           ))}
         </div>
         <div className="about__image">
