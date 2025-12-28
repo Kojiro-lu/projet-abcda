@@ -35,6 +35,10 @@
     margin-bottom: 2rem;
     color: $gris-foncé;
     font-size: 1rem;
+
+    @include responsive(mobile) {
+      font-size: 0.8rem;
+    }
   }
 
   &__container {

@@ -24,7 +24,7 @@ const Carousel = ({ images = [], delay = 7000, variant = "default" }) => {
 
   return (
     <div
-      className={`carousel ${variant}`}
+      className={`carousel carousel--${variant}`}
       role="region"
       aria-label="Carrousel d’illustrations du site ABCDA"
     >

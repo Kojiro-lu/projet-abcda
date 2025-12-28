@@ -7,9 +7,12 @@
   overflow: hidden;
   width: 100%;
 
-  &.small {
-    width: 80%;
-    height: 400px;
+  &--default {
+    height: 100%;
+  }
+
+  &--small {
+    width: 90%;
   }
 
   &__content {

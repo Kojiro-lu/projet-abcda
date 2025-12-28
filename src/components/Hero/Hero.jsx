@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero__container">
-        <Carousel images={carouselData} delay={7000} />
+        <Carousel images={carouselData} delay={7000} variant="default" />
         <div className="hero__caption">
           <h1>
             Cyril Bettremieux, architecte DPLG à la tête d'ABCDA, vous
